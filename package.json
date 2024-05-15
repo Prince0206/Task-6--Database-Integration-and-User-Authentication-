@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mongodb": "^6.6.1",
+    "node.js": "^0.0.1-security"
+  }
+}

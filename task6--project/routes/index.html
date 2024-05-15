@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 6: Database Integration and User Authentication</title>
+    <script src="app.js"></script>
+    <script src="index..js"></script>
+    <script src="protected.js"></script>
+<style>
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style input fields */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+/* Style submit buttons */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover effect for buttons */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+h1 {
+    text-align: center;
+}
+/* Center the forms on the page */
+#login-form,
+#registration-form {
+    text-align: center;
+}
+
+</style>
+</head>
+<body>
+    <h1> Student Management System</h1>
+    <form id="login-form">
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button type="submit">Login</button>
+      </form>
+      <br>
+      <form id="registration-form">
+        <input type="text" id="new-username" placeholder="New Username" required>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <input type="password" id="new-password" placeholder="New Password" required>
+        <button type="submit">Register</button>
+      </form>
+      
+</body>
+</html>
